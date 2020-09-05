@@ -8,7 +8,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
+  background: linear-gradient(rgb(83, 83, 83), rgb(214, 214, 214));
 }
 
 button {
@@ -53,4 +55,15 @@ button {
   grid-column: -2;
   grid-row: 2 / span 4;
   background: linear-gradient(rgb(236, 128, 50), rgb(177, 88, 24));
+}
+
+.active {
+  background: linear-gradient(rgb(236, 128, 50), rgb(177, 88, 24));
+}
+
+footer {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
